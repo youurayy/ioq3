@@ -1,6 +1,8 @@
 
 ## Q3 Impulse Mod: Experimental gameplay concepts
 
+This mod aims to explore highly increased gameplay fluidity by removing various delays and flow-breaking complexity, to maximize player on-trigger/full-attention time, thus (possibly) increasing the gameplay enjoyment.
+
 ### TODO
 
 - vs2015 project (and instructions)
@@ -17,7 +19,9 @@
 
 ### DONE
 
+- nothing here yet
 
+Original README follows:
 ---
 
                    ,---------------------------------------.
