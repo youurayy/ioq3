@@ -18,6 +18,7 @@ The source code will live solely in the `impulse` branch.
 - disable the rail-gun hum sound
 - disable ammo in hud (or replace with infinity)
 - draw visual enhancer cues on character head/body to see thru blood splatter
+- remove 'fragged' texts for cleaner display
 
 ### DONE
 
