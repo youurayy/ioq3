@@ -33,12 +33,18 @@ NOTE: these are ONLY for vanilla ioquake3 build, this branch (`impulse`) builds 
 - copy `ioq3/misc/msvc12` to `ioq3/misc/msvc14`
 - download latest `SDL2-devel-2.*.*-VC.zip` from https://www.libsdl.org/download-2.0.php, extract, copy `lib/{x86,x64}/*` into `ioq3/code/libs/{win32/win64}/` respectively, delete the previous `*SDL2*` files
 - open `misc/msvc14/ioq3.sln`
-- in `Solution Explorer`, make sure `quake3` project's *Properties, C/C++, Code Generation, Runtime Libary* is set to `Multi-threaded Debug /MDd` (*not* DLL)
+- in `Solution Explorer`, make sure `quake3` project's *Properties, C/C++, Code Generation, Runtime Libary* is set to `Multi-threaded Debug /MTd` (*not* DLL)
 - in `Solution Explorer`, make sure `game`, `cgame`, `q3_ui` and `ui` project's *Properties, C/C++, Code Generation, Runtime Libary* is set to `Multi-threaded Debug DLL /MDd` (*with* DLL)
 - in `Solution Explorer`, make sure `quake3` project's *Properties, Linker, Input, Additional Dependencies* does not contain `msvcrt.lib`
+
 - TODO rename output dir to msvc14
 - TODO .bat to copy quake binary + dlls + sdl2.dll to target dir after build (what about debugger?)
 - TODO win64
+
+additional/optional
+
+- set `quake3` as default project in solution properties
+
 
 ---
 
