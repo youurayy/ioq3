@@ -24,6 +24,8 @@ The source code will live solely in the `impulse` branch.
 
 - nothing here yet
 
+---
+
 ##### Visual Studio 2015 (msvc14) Build Instructions
 
 NOTE: these are ONLY for vanilla ioquake3 build, this branch (`impulse`) builds fine
@@ -38,10 +40,10 @@ NOTE: these are ONLY for vanilla ioquake3 build, this branch (`impulse`) builds 
 - TODO .bat to copy quake binary + dlls + sdl2.dll to target dir after build (what about debugger?)
 - TODO win64
 
+---
 
 Original README follows:
 
----
 
                    ,---------------------------------------.
                    |   _                     _       ____  |
