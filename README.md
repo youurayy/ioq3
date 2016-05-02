@@ -7,7 +7,6 @@ The source code will live solely in the `impulse` branch.
 
 ### TODO
 
-- vs2015 project (and instructions)
 - only railgun (and saw) + unlimited ammo + very short charging
 - one shot kills, very high damage (splatter?)
 - deleted from levels: weapons, health, regeneration, quad-damage, armor
@@ -22,7 +21,7 @@ The source code will live solely in the `impulse` branch.
 
 ### DONE
 
-- nothing here yet
+- vs2015 project (and instructions)
 
 ---
 
