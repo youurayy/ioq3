@@ -17,7 +17,7 @@ The source code will live solely in the `impulse` branch.
 - disable the rail-gun hum sound
 - disable ammo in hud (or replace with infinity)
 - draw visual enhancer cues on character head/body to see thru blood splatter
-- remove 'fragged' texts for cleaner display
+- remove 'fragged' texts for cleaner display (default cvar, no-cheat)
 
 ### DONE
 
@@ -36,7 +36,7 @@ NOTE: these are ONLY for vanilla ioquake3 build, this branch (`impulse`) has the
 - in `Solution Explorer`, make sure `game`, `cgame`, `q3_ui` and `ui` project's *Properties, C/C++, Code Generation, Runtime Libary* is set to `Multi-threaded Debug DLL /MDd` (*with* DLL)
 - in `Solution Explorer`, make sure `quake3` project's *Properties, Linker, Input, Additional Dependencies* does not contain `msvcrt.lib`
 - in `Solution Explorer`, change `msvc12` to `msvc14` in each project's *Properties, General, Output/Intermediate Directory*
-- in `Solution Explorer`, chant `quake3` project's *Properties, Build Events, Post-Build Event, Command Line* to `copy ..\..\code\libs\win32\*.dll $(OutDir)`
+- in `Solution Explorer`, change `quake3` project's *Properties, Build Events, Post-Build Event, Command Line* to `copy ..\..\code\libs\win32\*.dll $(OutDir)`
 - set `quake3` as default project in Solution Properties
 
 ---
