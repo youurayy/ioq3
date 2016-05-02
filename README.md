@@ -26,7 +26,7 @@ The source code will live solely in the `impulse` branch.
 
 ---
 
-##### Visual Studio 2015 (msvc14) Build Instructions
+#### Visual Studio 2015 (msvc14) Build Instructions
 
 NOTE: these are ONLY for vanilla ioquake3 build, this branch (`impulse`) builds fine
 
@@ -42,7 +42,7 @@ NOTE: these are ONLY for vanilla ioquake3 build, this branch (`impulse`) builds 
 
 ---
 
-Original README follows:
+#### Original README
 
 
                    ,---------------------------------------.
