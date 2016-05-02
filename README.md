@@ -1,3 +1,25 @@
+
+## Q3 Impulse Mod: Experimental gameplay concepts
+
+### TODO
+
+- vs2015 project (and instructions)
+- only railgun (and saw) + unlimited ammo + very short charging
+- one shot kills, very high damage (splatter?)
+- deleted from levels: weapons, health, regeneration, quad-damage, armor
+- respawn is immediate
+- teleport always available? (with delay?)
+- no fall damage (except off-bounds death)
+- rocket-jump possible with railgun, no self-damage (?)
+- disable the rail-gun hum sound
+- disable ammo in hud (or replace with infinity)
+- draw visual enhancer cues on character head/body to see thru blood splatter
+
+### DONE
+
+
+---
+
                    ,---------------------------------------.
                    |   _                     _       ____  |
                    |  (_)___  __ _ _  _ __ _| |_____|__ /  |
@@ -536,5 +558,3 @@ Significant contributions from
   * Vincent S. Cojot <vincent at cojot dot name>
   * optical <alex@rigbo.se>
   * Aaron Gyes <floam@aaron.gy>
-
-
