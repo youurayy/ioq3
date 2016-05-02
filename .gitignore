@@ -39,4 +39,4 @@ profile
 *.opensdf
 *.suo
 misc/winquake.res
-
+*.VC.opendb
