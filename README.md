@@ -24,7 +24,9 @@ The source code will live solely in the `impulse` branch.
 
 - nothing here yet
 
-#### Visual Studio 2015 (msvc14) Build Instructions
+##### Visual Studio 2015 (msvc14) Build Instructions
+
+NOTE: these are ONLY for vanilla ioquake3 build, this branch (`impulse`) builds fine
 
 - copy `ioq3/misc/msvc12` to `ioq3/misc/msvc14`
 - download latest `SDL2-devel-2.*.*-VC.zip` from https://www.libsdl.org/download-2.0.php, extract, copy `lib/{x86,x64}/*` into `ioq3/code/libs/{win32/win64}/` respectively, delete the previous `*SDL2*` files
