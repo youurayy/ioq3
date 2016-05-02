@@ -24,6 +24,18 @@ The source code will live solely in the `impulse` branch.
 
 - nothing here yet
 
+#### Visual Studio 2015 (msvc14) Build Instructions
+
+- copy `ioq3/misc/msvc12` to `ioq3/misc/msvc14`
+- download latest `SDL2-devel-2.*.*-VC.zip` from https://www.libsdl.org/download-2.0.php, extract, copy `lib/{x86,x64}/*` into `ioq3/code/libs/{win32/win64}/` respectively, delete the previous `*SDL2*` files
+- open `misc/msvc14/ioq3.sln`
+- in `Solution Explorer`, make sure `quake3` project's *Properties, C/C++, Code Generation, Runtime Libary* is set to `Multi-threaded Debug /MDd` (*not* DLL)
+- in `Solution Explorer`, make sure `game`, `cgame`, `q3_ui` and `ui` project's *Properties, C/C++, Code Generation, Runtime Libary* is set to `Multi-threaded Debug DLL /MDd` (*with* DLL)
+- in `Solution Explorer`, make sure `quake3` project's *Properties, Linker, Input, Additional Dependencies* does not contain `msvcrt.lib`
+- TODO rename output dir to msvc14
+- TODO .bat to copy quake binary + dlls + sdl2.dll to target dir after build (what about debugger?)
+- TODO win64
+
 
 Original README follows:
 
