@@ -36,15 +36,9 @@ NOTE: these are ONLY for vanilla ioquake3 build, this branch (`impulse`) builds 
 - in `Solution Explorer`, make sure `quake3` project's *Properties, C/C++, Code Generation, Runtime Libary* is set to `Multi-threaded Debug /MTd` (*not* DLL)
 - in `Solution Explorer`, make sure `game`, `cgame`, `q3_ui` and `ui` project's *Properties, C/C++, Code Generation, Runtime Libary* is set to `Multi-threaded Debug DLL /MDd` (*with* DLL)
 - in `Solution Explorer`, make sure `quake3` project's *Properties, Linker, Input, Additional Dependencies* does not contain `msvcrt.lib`
-
-- TODO rename output dir to msvc14
-- TODO .bat to copy quake binary + dlls + sdl2.dll to target dir after build (what about debugger?)
-- TODO win64
-
-additional/optional
-
-- set `quake3` as default project in solution properties
-
+- in `Solution Explorer`, change `msvc12` to `msvc14` in each project's *Properties, General, Output/Intermediate Directory*
+- in `Solution Explorer`, chant `quake3` project's *Properties, Build Events, Post-Build Event, Command Line* to `copy ..\..\code\libs\win32\*.dll $(OutDir)`
+- set `quake3` as default project in Solution Properties
 
 ---
 
