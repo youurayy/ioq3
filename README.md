@@ -1,7 +1,9 @@
 
 ## Q3 Impulse Mod: Experimental gameplay concepts
 
-This mod aims to explore highly increased gameplay fluidity by removing various delays and flow-breaking complexity, to maximize player on-trigger/full-attention time, thus (possibly) increasing the gameplay enjoyment.
+This mod aims to explore highly increased gameplay fluidity by removing various delays and flow-breaking complexity, to maximize player on-trigger/on-aim/full-attention time, thus (possibly) increasing the gameplay enjoyment.
+
+The source code will live solely in the `impulse` branch.
 
 ### TODO
 
