@@ -39,6 +39,7 @@ NOTE: these are ONLY for vanilla ioquake3 build, this branch (`impulse`) has the
 - in `Solution Explorer`, change `quake3` project's *Properties, Build Events, Post-Build Event, Command Line* to `copy ..\..\code\libs\win32\*.dll $(OutDir)`
 - set `quake3` as default project in Solution Properties
 - set `vm_game`, `vm_cgame` and `vm_ui` vars to value `0` to use the compiled .dll files
+
 ---
 
 #### Original README
