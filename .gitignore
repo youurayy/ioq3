@@ -40,3 +40,4 @@ profile
 *.suo
 misc/winquake.res
 *.VC.opendb
+*.VC.db
