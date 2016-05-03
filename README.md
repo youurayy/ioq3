@@ -8,7 +8,6 @@ The source code will live solely in the `impulse` branch.
 ### TODO
 
 - only railgun (and saw) + unlimited ammo + very short charging
-- one shot kills, very high damage (splatter?)
 - deleted from levels: weapons, health, regeneration, quad-damage, armor
 - respawn is immediate
 - teleport always available? (with delay?)
@@ -22,6 +21,7 @@ The source code will live solely in the `impulse` branch.
 ### DONE
 
 - vs2015 project (and instructions)
+- one shot kills, very high damage (splatter)
 
 ---
 
@@ -38,7 +38,7 @@ NOTE: these are ONLY for vanilla ioquake3 build, this branch (`impulse`) has the
 - in `Solution Explorer`, change `msvc12` to `msvc14` in each project's *Properties, General, Output/Intermediate Directory*
 - in `Solution Explorer`, change `quake3` project's *Properties, Build Events, Post-Build Event, Command Line* to `copy ..\..\code\libs\win32\*.dll $(OutDir)`
 - set `quake3` as default project in Solution Properties
-
+- set `vm_game`, `vm_cgame` and `vm_ui` vars to value `0` to use the compiled .dll files
 ---
 
 #### Original README

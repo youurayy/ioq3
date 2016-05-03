@@ -455,7 +455,7 @@ void weapon_railgun_fire (gentity_t *ent) {
 	int			passent;
 	gentity_t	*unlinkedEntities[MAX_RAIL_HITS];
 
-	damage = 100 * s_quadFactor;
+	damage = 1000 * s_quadFactor;
 
 	VectorMA (muzzle, 8192, forward, end);
 
