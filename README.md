@@ -9,11 +9,13 @@ The source code will live solely in the `impulse` branch.
 
 - default weapon is railgun, one shot kills, very high damage (splatter)
 - all weapons have unlimited ammo
-- remove 'fragged' texts for cleaner display (default cvar, no-cheat)
+- remove 'you fragged' texts for cleaner display (default cvar, no-cheat)
 
-### observations / lessons learned
+### todo
 
-(todo)
+- implement (some of the) ideas
+- test gameplay, record observations
+- release
 
 ### ideas
 
@@ -32,11 +34,9 @@ The source code will live solely in the `impulse` branch.
 - replace ammo in hud with something useful (?)
 - draw visual enhancer cues on character head/body to see thru blood splatter (?)
 
-### todo
+### observations / lessons learned
 
-- implement (some of the) ideas
-- test gameplay, record observations
-- release
+(todo)
 
 ---
 
