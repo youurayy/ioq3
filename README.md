@@ -5,28 +5,38 @@ This mod aims to explore highly increased gameplay fluidity by removing various 
 
 The source code will live solely in the `impulse` branch.
 
-### DONE
+### features
 
-- vs2015 project (and instructions)
 - default weapon is railgun, one shot kills, very high damage (splatter)
 - all weapons have unlimited ammo
 - remove 'fragged' texts for cleaner display (default cvar, no-cheat)
 
-### OBSERVATIONS / LESSONS LEARNED
+### observations / lessons learned
 
 (todo)
 
-### IDEAS
+### ideas
 
-- the only weapon is rail gun
+- the only weapon is railgun
 - deleted from levels: weapons, health, regeneration, quad-damage, armor
-- respawn is immediate
+- respawn is almost immediate; static value e.g. 500ms
+- last kill point is the next spawn point of the attacker
+- disable the railgun hum sound
+
+### ideas (not sure)
+
 - teleport always available? (with delay?)
 - no fall damage (except off-bounds death)
-- rocket-jump possible with railgun, no self-damage (?)
-- disable the rail-gun hum sound
-- disable ammo in hud (or replace with infinity)
-- draw visual enhancer cues on character head/body to see thru blood splatter
+- rocket-jump possible with railgun (?)
+- display frags among rewards (?)
+- replace ammo in hud with something useful (?)
+- draw visual enhancer cues on character head/body to see thru blood splatter (?)
+
+### todo
+
+- implement (some of the) ideas
+- test gameplay, record observations
+- release
 
 ---
 
