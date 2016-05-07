@@ -1635,9 +1635,9 @@ static void PM_Weapon( void ) {
 	}
 
 	// take an ammo away if not infinite
-	if ( pm->ps->ammo[ pm->ps->weapon ] != -1 ) {
-		pm->ps->ammo[ pm->ps->weapon ]--;
-	}
+	// if ( pm->ps->ammo[ pm->ps->weapon ] != -1 ) {
+	//	pm->ps->ammo[ pm->ps->weapon ]--; //IMPULSEMOD
+	// }
 
 	// fire weapon
 	PM_AddEvent( EV_FIRE_WEAPON );
@@ -1666,7 +1666,9 @@ static void PM_Weapon( void ) {
 		addTime = 100;
 		break;
 	case WP_RAILGUN:
-		addTime = 1500;
+		// 100 = too fast, with unlimited ammo can be used like machine gun (lame)
+		// 300 => sweet spot? makes shooting more accurate in "single-shot" mode; not too laggy
+		addTime = 300; // 1500; //IMPULSEMOD
 		break;
 	case WP_BFG:
 		addTime = 200;

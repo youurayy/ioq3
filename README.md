@@ -5,9 +5,20 @@ This mod aims to explore highly increased gameplay fluidity by removing various 
 
 The source code will live solely in the `impulse` branch.
 
-### TODO
+### DONE
 
-- only railgun (and saw) + unlimited ammo + very short charging
+- vs2015 project (and instructions)
+- default weapon is railgun, one shot kills, very high damage (splatter)
+- all weapons have unlimited ammo
+- remove 'fragged' texts for cleaner display (default cvar, no-cheat)
+
+### OBSERVATIONS / LESSONS LEARNED
+
+(todo)
+
+### IDEAS
+
+- the only weapon is rail gun
 - deleted from levels: weapons, health, regeneration, quad-damage, armor
 - respawn is immediate
 - teleport always available? (with delay?)
@@ -16,12 +27,6 @@ The source code will live solely in the `impulse` branch.
 - disable the rail-gun hum sound
 - disable ammo in hud (or replace with infinity)
 - draw visual enhancer cues on character head/body to see thru blood splatter
-- remove 'fragged' texts for cleaner display (default cvar, no-cheat)
-
-### DONE
-
-- vs2015 project (and instructions)
-- one shot kills, very high damage (splatter)
 
 ---
 
@@ -38,7 +43,7 @@ NOTE: these are ONLY for vanilla ioquake3 build, this branch (`impulse`) has the
 - in `Solution Explorer`, change `msvc12` to `msvc14` in each project's *Properties, General, Output/Intermediate Directory*
 - in `Solution Explorer`, change `quake3` project's *Properties, Build Events, Post-Build Event, Command Line* to `copy ..\..\code\libs\win32\*.dll $(OutDir)`
 - set `quake3` as default project in Solution Properties
-- set `vm_game`, `vm_cgame` and `vm_ui` vars to value `0` to use the compiled .dll files
+- set `sv_pure`, `vm_game`, `vm_cgame` and `vm_ui` vars to value `0` to use the compiled .dll files
 
 ---
 
