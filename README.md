@@ -9,7 +9,7 @@ The source code will live solely in the `impulse` branch.
 
 - default weapon is railgun, one shot kills, very high damage (splatter)
 - all weapons have unlimited ammo
-- remove 'you fragged' texts for cleaner display (default cvar, no-cheat)
+- remove 'you fragged' texts for cleaner display (default cvar to 0, remove nocheat)
 
 ### todo
 
