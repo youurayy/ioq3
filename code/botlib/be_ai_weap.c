@@ -138,7 +138,7 @@ int BotValidWeaponNumber(int weaponnum)
 {
 	if (weaponnum <= 0 || weaponnum > weaponconfig->numweapons)
 	{
-		botimport.Print(PRT_ERROR, "weapon number out of range\n");
+		// botimport.Print(PRT_ERROR, "weapon number out of range\n"); //IMPULSEMOD
 		return qfalse;
 	} //end if
 	return qtrue;
@@ -407,6 +407,8 @@ int BotChooseBestFightWeapon(int weaponstate, int *inventory)
 	float weight, bestweight;
 	weaponconfig_t *wc;
 	bot_weaponstate_t *ws;
+
+	return 0; //IMPULSEMOD
 
 	ws = BotWeaponStateFromHandle(weaponstate);
 	if (!ws) return 0;

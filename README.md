@@ -10,6 +10,8 @@ The source code will live solely in the `impulse` branch.
 - default weapon is railgun, one shot kills, very high damage (splatter)
 - all weapons have unlimited ammo
 - remove 'you fragged' texts for cleaner display (default cvar to 0, remove nocheat)
+- bots prefer railgun
+- disable the railgun hum sound
 
 ### todo
 
@@ -23,7 +25,6 @@ The source code will live solely in the `impulse` branch.
 - deleted from levels: weapons, health, regeneration, quad-damage, armor
 - respawn is almost immediate; static value e.g. 500ms
 - last kill point is the next spawn point of the attacker
-- disable the railgun hum sound
 
 ### ideas (not sure)
 
