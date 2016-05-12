@@ -37,7 +37,6 @@ The source code will live solely in the `impulse` branch.
 
 ### ideas (far out)
 
-- the only weapon is railgun
 - deleted from levels: weapons, health, regeneration, quad-damage, armor
 - no fall damage (except off-bounds death)
 - rocket-jump possible with railgun
