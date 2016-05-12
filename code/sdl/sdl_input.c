@@ -890,7 +890,7 @@ static void IN_ProcessEvents( void )
 IN_Frame
 ===============
 */
-void IN_Frame( void )
+void IN_Frame( qboolean in_com_frame )
 {
 	qboolean loading;
 
@@ -920,7 +920,7 @@ void IN_Frame( void )
 	IN_ProcessEvents( );
 
 	// In case we had to delay actual restart of video system
-	if( ( vidRestartTime != 0 ) && ( vidRestartTime < Sys_Milliseconds( ) ) )
+	if( !in_com_frame && ( vidRestartTime != 0 ) && ( vidRestartTime < Sys_Milliseconds( ) ) )
 	{
 		vidRestartTime = 0;
 		Cbuf_AddText( "vid_restart\n" );
