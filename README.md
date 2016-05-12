@@ -8,6 +8,7 @@ The source code will live solely in the `impulse` branch.
 ### features
 
 - default weapon is railgun, one shot kills, very high damage (splatter)
+- very fast railgun reload time, 300ms
 - all weapons have unlimited ammo
 - remove 'you fragged' texts for cleaner display (default cvar to 0, remove nocheat)
 - bots prefer railgun
@@ -16,6 +17,7 @@ The source code will live solely in the `impulse` branch.
 
 ### todo
 
+- pass-through surround on windows, exclusive mode
 - draw visual enhancer cues on character models
   - see-thru level/walls?
   - show most probable movement prediction vectors/paths? (only w/ direct line of sight?)
@@ -29,7 +31,6 @@ The source code will live solely in the `impulse` branch.
 - deleted from levels: weapons, health, regeneration, quad-damage, armor
 - respawn is almost immediate; static value e.g. 500ms
 - last kill point is the next spawn point of the attacker
-- pass-through surround on windows
 
 ### ideas (not sure)
 
