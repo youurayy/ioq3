@@ -44,7 +44,12 @@ The source code will live solely in the `impulse` branch.
 
 ### observations / lessons learned
 
-(todo)
+- insta-kill w/ a singular "proper" weapon is a legit replacement of the original game play mode
+- railgun with very fast reload still cannot be used as machine gun on auto-fire (this is good)
+- removal of "you fragged" text improves gameplay by a surprising margin
+- it seems like not using `r_finish=1` gives bots more time to think (todo: verify)
+- bots with strong railgun skill kind of break the laid-backness of multi-bot gameplay (xaero)
+- (to be continued)
 
 ---
 
