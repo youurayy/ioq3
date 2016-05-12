@@ -27,18 +27,20 @@ The source code will live solely in the `impulse` branch.
 
 ### ideas
 
-- the only weapon is railgun
-- deleted from levels: weapons, health, regeneration, quad-damage, armor
 - respawn is almost immediate; static value e.g. 500ms
 - last kill point is the next spawn point of the attacker
 
 ### ideas (not sure)
 
 - teleport always available? (with delay?)
+- display frags among rewards
+
+### ideas (far out)
+
+- the only weapon is railgun
+- deleted from levels: weapons, health, regeneration, quad-damage, armor
 - no fall damage (except off-bounds death)
-- rocket-jump possible with railgun (?)
-- display frags among rewards (?)
-- replace ammo in hud with something useful (?)
+- rocket-jump possible with railgun
 
 ### observations / lessons learned
 
