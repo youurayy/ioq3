@@ -12,10 +12,14 @@ The source code will live solely in the `impulse` branch.
 - remove 'you fragged' texts for cleaner display (default cvar to 0, remove nocheat)
 - bots prefer railgun
 - disable the railgun hum sound
+- halve input latency [ioquake3/#177](https://github.com/ioquake/ioq3/issues/177)
 
 ### todo
 
-- implement (some of the) ideas
+- draw visual enhancer cues on character models
+  - see-thru level/walls?
+  - show most probable movement prediction vectors/paths? (only w/ direct line of sight?)
+- replace ammo in hud with frags/fragged per-minute chart (+shot accuracy?)
 - test gameplay, record observations
 - release
 
@@ -25,6 +29,7 @@ The source code will live solely in the `impulse` branch.
 - deleted from levels: weapons, health, regeneration, quad-damage, armor
 - respawn is almost immediate; static value e.g. 500ms
 - last kill point is the next spawn point of the attacker
+- pass-through surround on windows
 
 ### ideas (not sure)
 
@@ -33,7 +38,6 @@ The source code will live solely in the `impulse` branch.
 - rocket-jump possible with railgun (?)
 - display frags among rewards (?)
 - replace ammo in hud with something useful (?)
-- draw visual enhancer cues on character head/body to see thru blood splatter (?)
 
 ### observations / lessons learned
 
