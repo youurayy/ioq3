@@ -15,6 +15,11 @@ The source code will live solely in the `impulse` branch.
 - disable the railgun hum sound
 - halve input latency [ioquake3/#177](https://github.com/ioquake/ioq3/issues/177)
 
+### sample videos
+
+- [q3dm9, 4 bots](https://www.youtube.com/watch?v=xlYnauV8zAc)
+- [lun3dm5, 4 bots](https://www.youtube.com/watch?v=v_zHK7nndqw)
+
 ### todo
 
 - pass-through surround on windows, exclusive mode
@@ -66,6 +71,16 @@ NOTE: these are ONLY for vanilla ioquake3 build, this branch (`impulse`) has the
 - in `Solution Explorer`, change `quake3` project's *Properties, Build Events, Post-Build Event, Command Line* to `copy ..\..\code\libs\win32\*.dll $(OutDir)`
 - set `quake3` as default project in Solution Properties
 - set `sv_pure`, `vm_game`, `vm_cgame` and `vm_ui` vars to value `0` to use the compiled .dll files
+
+#### Verbose Debug Output and Logging
+
+- note: setting a breakpoint in VS2015 on ioquake3 in fullscreen mode will render the system unusable (restart required)
+- `logfile "2"` -
+- `g_logSync "1"` - fine on SSD
+- `g_log "games.log"`
+- `developer "1"`
+- other: r_logFile, bot_debug, bot_developer, ...
+
 
 ---
 
